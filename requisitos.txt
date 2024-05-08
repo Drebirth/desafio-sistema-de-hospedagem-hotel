@@ -1,0 +1,26 @@
+Desafio
+
+Classes:
+Pessoa
+- Nome: string
+- Sobrenome: string
+
+Suite
+- TipoSuite: string
+- Capacidade: int
+- valorDiaria : decimal
+
+Reserva
+- Hospedes: List<Pessoa>
+- Suite: Suite
+- DiasReservados: int
+
+métodos
++ void CadastrarHospedes(List<Pessoa> hospedes)
++ void CadastrarSuite(Suite suite)
++ int ObterQuantidadeHospedes()
++ decimal CalcularValorDiaria()
+
+Regra
+Caso você reserve mais de dez dias terá 10% de desconto e isso deverá ser calculado no valor da diria.
+validacao nao pode hospedar mais pessoas do que a capacidade original
