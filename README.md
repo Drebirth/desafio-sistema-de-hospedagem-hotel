@@ -1,12 +1,12 @@
 Desafio proposto pela DIO, para ser criado um sistema de hospedagem de hotel utilizando POO, onde tinhamos que criar três classes, como pessoa, suite e reserva.
 
-Classe ##Pessoa
+Classe Pessoa
 Atributos: Nome, sobrenome
 
-Classe ##Suite
+Classe Suite
 Atributos: TipoSuite, Capacidade, ValorDiaria
 
-Classe ##Reserva
+Classe Reserva
 Atributos: ListaDeHospedes, DiasReservados, DataEntrada, DataSaida
 
 Métodos:
